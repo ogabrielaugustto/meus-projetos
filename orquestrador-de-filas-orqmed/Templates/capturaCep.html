@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CEP</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/capturaCep.css') }}">
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="/static/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/static/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/static/images/favicon-16x16.png">
+    <link rel="manifest" href="/static/images/site.webmanifest">
+    <link rel="mask-icon" href="/static/images/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    
+</head>   
+<body style="background-color: white">
+    <header>
+        <div class="flex-container menu">
+            <div><h1>OrqMed</h1></div>
+            <ul class="list-items">
+                    <li><a href="/">Sair</a></li>
+            </ul>
+        </div>
+    </header> 
+
+        <div class="container">
+            <h2 class="pergunta">{{ primeiro_nome }}, me informe o seu CEP!</h2>
+            
+            <div class="textarea">
+                <textarea></textarea>
+            </div>
+
+            <div class="keyboard">
+                <div class="row">
+                    <button class="btn">1</button>
+                    <button class="btn">2</button>
+                    <button class="btn">3</button>
+                    <button class="btn">4</button>
+                    <button class="btn">5</button>
+                    <button class="btn">6</button>
+                    <button class="btn">7</button>
+                    <button class="btn">8</button>
+                    <button class="btn">9</button>
+                    <button class="btn">0</button><br>
+                    <button class="delete">Delete</button>
+                    <button class="enter">CONFIRMAR</button>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <div class="flex-container footer">
+                <p>&copy; 2022 Tech and Data Solutions</p>
+            </div>
+        </footer>
+  
+    <script src="static/js/capturaCep.js"></script>
+</body>
+</html>

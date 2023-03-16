@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background-color: #121212;
+}
+
+.conteudo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color:#121212;
+    height: 50rem;
+}
+
+.title{
+    color: #ff5e06;
+}
+
+.instrution{
+    color: white;
+}
+
+#counter button {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: #ff5e06;
+    color: rgb(0, 0, 0);
+    font-size: 16pt;
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+}
+
+#buttonReset button{
+    height: 20px;
+    width: 100px;
+    border-radius: 5px;
+    border: 1px solid #ff5e06;
+    background-color: #fff;
+    color: rgb(0, 0, 0);
+    font-size: 12pt;
+    font-weight: 20;
+    text-align: center;
+    line-height: 8px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+#counter {
+    display: flex;
+}
+
+#currentNumber {
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+    font-size: 16pt;
+    color: white;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-top: 70px;
+}
+
+.link-linkedin{
+    color: white;
+}
+
+/* media queries */
+
+@media (max-width: 1024px){
+    .conteudo{
+        height: 1000px;
+    }
+   
+    .footer{
+    margin-top: 10px;
+   }
+}
+
+@media (max-width: 650px){
+    .conteudo{
+        height: 800px;
+    }
+
+    .footer{
+        margin-top: 10px;
+    }
+
+    
+}

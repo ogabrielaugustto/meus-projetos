@@ -1,0 +1,1 @@
+Formulário de cadastro estilizado (HTML, CSS), integrado com um banco de dados usando PHP.

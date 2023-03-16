@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <title>Contador</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+    <link rel="manifest" href="./favicon/site.webmanifest">
+</head>
+<body>
+    <div class="conteudo">
+        <h1 class="title">Contador de cliques!</h1>
+        <p class="instrution">Você clica e eu vou contando :)</p>
+        <div id="counter">
+            <button name="subtrair" onclick="decrement()">-</button>
+            <span id="currentNumber">0</span>
+            <button name="adicionar" onclick="increment()">+</button>
+            
+        </div>
+        
+        <div id="buttonReset">
+            <button name="resetar" onclick="reset()">Resetar</button>
+        </div>
+    </div>
+    
+     
+    <footer>
+        <div class="footer">
+            <p>Desenvolvido por: <a href="https://www.linkedin.com/in/ogabrielaugusto/" target="_blank" class="link-linkedin">Gabriel Augusto</a></p>
+        </div>
+    </footer>
+
+    <script src="./assets/js/scripts.js"></script>
+
+</body>
+</html>

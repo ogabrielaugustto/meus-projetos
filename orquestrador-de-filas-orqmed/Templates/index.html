@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OrqMed - Um prontuário mais que inteligente</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style_index.css') }}">
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="/static/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/static/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/static/images/favicon-16x16.png">
+    <link rel="manifest" href="/static/images/site.webmanifest">
+    <link rel="mask-icon" href="/static/images/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+</head>
+<body style="background-color: white">
+    <header>
+        <div class="flex-container menu">
+            <div><h1>OrqMed</h1></div>
+            <ul class="list-items">
+                <li><a href="#usabilidade">Como Funciona</a></li>
+                <li><a href="#suporte">Suporte</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="container-black">
+        <div class="flex-container apresentacao">
+            <div class="texto-apresentacao">
+                <h1>OrqMed</h1>
+                <p>Um prontuário mais que inteligente!</p>
+                
+                    <a href="/pergunta1" class="btn">Iniciar Atendimento</a>
+                
+            </div>
+
+            <div>
+                <div class="banner_apresentacao">
+                  <img src="/static/images/Telemedicina.jpg" alt="banner_apresentacao">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-externo">
+        <div class="flex-container" id="usabilidade">
+            <div>
+                <h2>Como Funciona</h2>
+            </div>
+
+            <div class="list-usabilidade">
+                <div class="item-usabilidade">
+                    <div><img src="/static/images/icon-2.png" alt="hospedagens"></div>
+                    <p>1. Clique no botão "FALAR" iniciar <br>a gravação de sua resposta.</p>
+                </div>
+                
+
+                <div class="item-usabilidade">
+                    <div><img src="/static/images/icon-1.png" alt="pacote de viagens"></div>
+                    <p>2. Clique no botão "AVANÇAR"<br>para ir para a próxima pergunta.</p>
+                </div>
+
+                <div class="item-usabilidade">
+                    <div><img src="/static/images/icon-3.png" alt="roteiros personalizados"></div>
+                    <p>3. Ao chegar na última pergunta <br>clique em "FINALIZAR" e só sair.</p>
+                    
+                </div>
+                
+                
+            </div>
+            <div class="conteinerLevaTopo">
+                <a href="#" class="levaTopo">Leve me ao inicio!</a>
+            </div>
+            
+        </div>
+
+        
+        
+    </div>
+    
+    
+    <div class="container-black">
+        <div class="flex-container" id="suporte">
+            <div class="list-suporte">
+        
+                <div class="item-suporte">
+                    <h3>Ainda precisa de ajuda?</h3>
+                    <br>
+                    <ul>
+                        <li>Se não conseguiu realizar um atendimento pelo prontuário inteligente, você pode acionar um atendente que virá lhe ajudar em instantes.</li>
+                        <li>Após acionar o botão abaixo, por favor aguarde ao lado enquanto atendemos o próximo!</li>
+                    </ul>
+                    
+                    <div class="chamaAtend">
+                        <a href="#" class="btn">Chamar Atendente!</a>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="flex-container footer">
+            <p>&copy; 2022 Tech and Data Solutions</p>
+        </div>
+    </footer>
+</body>
+</html>

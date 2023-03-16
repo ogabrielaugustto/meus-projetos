@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  ul li a{
+    text-decoration: none;
+  }
+  
+  div img{
+    display: block;
+    width: 100%;
+  }
+  
+  .flex-container{
+    display: flex;
+    max-width: 992px;
+    margin: auto;
+    width: 100%;
+    min-width: 320px;
+    
+  }
+  
+  header{
+    background-color: #0066ff;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    color: white;
+  }
+  
+  header .list-items{
+    display: flex;
+    max-width: 260px;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  .list-items li a{
+    color: white;
+  }
+  header .menu{
+    justify-content: space-between;
+  }
+
+  .container{
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .pergunta{
+    margin-bottom: 50px;
+    margin-top: 250px;
+    font-size: 50px;
+  }
+  
+
+  .areatexto{
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  .keyboard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .row a {
+    font-size: 20px;
+    display: inline-block;
+    border: 1px solid #0066ff ;
+    margin: 10px;
+    padding: 0.5em 1em;
+    width: auto;
+    text-decoration: none;
+    color: #0066ff;
+    background-color: #ffffff;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0);
+    border-radius: 0.5em;
+    box-shadow: 1px 1px 0 1px #003c97;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    font-weight: bold;
+  }
+
+  .row a:active {
+    box-shadow: 0 0 0 0 #003c97,
+          inset 4px 4px 4px #003c97;
+    transform: translate(6px, 6px);
+  }
+
+
+  .textarea {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      margin-bottom: 2rem;
+  }
+  textarea {
+      width: 700px;
+      height: 35px;
+      resize: none;
+      padding: .5rem;
+      font-size: 1.5rem;
+      outline: none;
+      border: 2px solid #0066ff;
+      border-radius: .5rem;
+      text-align: center;
+  }
+
+  footer{
+    background-color: #0066ff;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    width: auto;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+  }
+  
+  footer .footer{
+    justify-content: center;
+    color: white;
+  }
+  
+  /* mobile */
+  @media(max-width: 992px){
+    header{
+        text-align: center;
+    }
+  
+    .menu{
+        align-items: center;
+    }
+  
+    .flex-container{
+        flex-direction: column;
+        margin: auto;
+        
+    }
+
+    .footer{
+        text-align: center;
+    }
+  }
